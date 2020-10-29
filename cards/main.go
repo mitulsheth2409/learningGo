@@ -1,5 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
-	printState()
+	var card string = "Ace of Spades"
+	fmt.Println(card)
+	// printState()
 }

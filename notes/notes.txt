@@ -1,0 +1,10 @@
+1) go build <file-name.go> 
+--> only compile the code, this creates an executable file. This file can
+then be directly executed using ./<file-name>
+
+2) go run <file-name.go> --> compile and run the code
+
+3) There are two types of packages in go
+--> Executable - Generates a file that we can run. A package with name 'main'
+is an executable package. No other name will create an executable package
+--> Reusable - Code used as helpers, e.g. libraries
